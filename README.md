@@ -27,3 +27,7 @@ The extracted features from the two models are then used to train the MEnKF algo
 ### Fine-tuning DeepCDR and DualGCN
 
 Fine-tuning the trained DeepCDR and DualGCN for all features can be found in the scripts [DeepCDR_FineTune_Stacker_AllF](https://github.com/Gayara-Fernando/MEnKF_CDRP/blob/main/DeepCDR_FineTune_Stacker_AllF.ipynb) and [DualGCN_FineTune_Stacker_AllF](https://github.com/Gayara-Fernando/MEnKF_CDRP/blob/main/DualGCN_FineTune_Stacker_AllF.ipynb), respectively. Fine-tuning the DeepCDR and DualGCN for a subset of features can be found in the scripts [DeepCDR_FineTune_Stacker_Ablation](https://github.com/Gayara-Fernando/MEnKF_CDRP/blob/main/DeepCDR_FineTune_Stacker_Ablation.ipynb) and [DualGCN_FineTune_Stacker_Ablation](https://github.com/Gayara-Fernando/MEnKF_CDRP/blob/main/DualGCN_FineTune_Stacker_Ablation.ipynb), respectively. These notebooks also give the predicted responses from the two models, which need to be saved to complete the stacking model. 
+
+### Stacking model
+
+[Stacker_AllF](https://github.com/Gayara-Fernando/MEnKF_CDRP/blob/main/Stacker_AllF.ipynb) has the codes for creating the stacking model for all features, and [Stacker_Ablation](https://github.com/Gayara-Fernando/MEnKF_CDRP/blob/main/Stacker_Ablation.ipynb) has the codes for creating the stacking model with the ablation features. 
